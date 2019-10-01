@@ -1,6 +1,6 @@
 {
 	"name": "Sitecore Language Marker",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"manifest_version": 2,
 	"description": "Shows marker for the language in the sitecore interface",
 	"icons": {
@@ -28,9 +28,6 @@
 		"scripts": []
 	},
 	"permissions": [
-		"activeTab",
-		"tabs",
-		"storage"
 	],
 	"web_accessible_resources": [
 		"images/flags/*",
