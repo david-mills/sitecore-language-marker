@@ -1,0 +1,39 @@
+{
+	"name": "Sitecore Language Marker",
+	"version": "1.0.1",
+	"manifest_version": 2,
+	"description": "Shows marker for the language in the sitecore interface",
+	"icons": {
+		"16": "images/icon-16.png",
+		"48": "images/icon-48.png",
+		"128": "images/icon-128.png"
+	},
+	"default_locale": "en",
+	"browser_action": {
+		"default_icon": "images/icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"scripts/modal.js"
+			],
+			"run_at": "document_end",
+			"all_frames": true
+		}
+	],
+	"background": {
+		"scripts": []
+	},
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"storage"
+	],
+	"web_accessible_resources": [
+		"images/flags/*",
+		"data.json"
+	]
+}

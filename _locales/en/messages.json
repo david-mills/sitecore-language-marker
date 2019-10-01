@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Sitecore Language Marker",
+    "description": "Language Marker Chrome Extension"
+  },
+  "appDescription": {
+    "message": "Use this marker to easily identify what language you are editing.",
+    "description": "Sitecore Language Marker Chrome Extension"
+  }
+}
